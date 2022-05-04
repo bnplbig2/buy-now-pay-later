@@ -29,8 +29,8 @@
 ################################################################################
 
 - sections:
-  - title: Getting Started
-    link: docs/getting-started.md
+  - title: Buy Now Pay Later
+    link: docs/bnpl.md
 - sections:
   - title: Release notes
     sections:
