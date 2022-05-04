@@ -1,39 +1,44 @@
-# Getting Started
-
-## Welcome to the Developer Studio!
-
-To onboard into the `Fiserv Developer Studio` as a new Tenant each product must support following APIs standard. So that `Fiserv` will able to retrieve product API specifications and documentation.
+<div id="top"></div>
  
-## Setting up Tenant
-
-Products within the Fiserv portfolio that are showcase through the Studio are known as `tenants`.  Tenants standup a `tenant server` that will serve all the content through the studio to developers visiting the Fiserv Developer Studio.
-For more information please refere to [Setup tenant](?path=docs/getting-started/setup-tenant/setup-tenant.md)
 
 
-## Deploying Tenant
-
-New registered Tenant must provide public tenant server.
-For more information please refer to [How to deploy tenant Server](?path=docs/getting-started/setup-tenant/deploy-tenant.md)
 
 
-## Tenant Registration
-
-To get started with as a new Studio Tenant, developer needs to setup new account by [Tenant Registration](?path=docs/getting-started/setup-tenant/register-tenant.md)
 
 
-## Code Tenant
-New Tenant can start with [Sample tenant repo](https://github.com/fiserv/sample-tenant) to setup Tenant server. Tenant can also build new codebase with choice of their own programming language. To learn more about this, please refere to [Code Tenant](?path=docs/getting-started/code-a-tenant/code-tenant.md)
-test
-___
 
-##  Next steps [Setup Tenant](?path=docs/getting-started/setup-tenant/setup-tenant.md)
+<!-- TABLE OF CONTENTS -->
+<!--
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+-->
 
 
-Need Help ?
-[FAQ](?path=docs/faq/faq.md)
+<!-- ABOUT THE PROJECT -->
+## Fiserv Buy Now Pay Later (BNPL)
+Fiserv BNPL soluion is providing various API to integrate with different parties (Acquirer, FI Issuer)
+to enable them BNPL capabilities.
 
-
-___
-
-
- 
+We are using traditional (CIBIL) and multiple non-traditional data sources like telco, social, Zomato, Swiggy, Meta, Uber, Ola and web , just based on the mobile number which is not provided in the market.
