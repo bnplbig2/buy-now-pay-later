@@ -1,10 +1,10 @@
 {
-  "title": "REPLACE ME > Developer Studio",
-  "name": "REPLACE ME > DeveloperPortal",
+  "title": "Buy Now Pay Later",
+  "name": "BuyNowPayLater",
   "brand": "Fiserv",
   "brandLogoURL": "https://raw.githubusercontent.com/Fiserv/Developer-Portal-Tenant-API/develop/assets/images/Fiserv_Logo.jpg",
   "solution": ["financial-institutions"],
-  "brandDescription": "REPLACE ME > Fiserv, Inc. is a global provider of payments and financial services technology solutions. The Company provides account processing and digital banking solutions, card issuer processing and network services, payments, e-commerce, merchant acquiring and processing, and the Clover cloud-based point-of-sale solution. The Company operates through three segments: Merchant Acceptance (Acceptance), Financial Technology (Fintech) and Payments and Network (Payments).",
+  "brandDescription": "Fiserv BNPL soluion is providing various API to integrate with different parties (Acquirer, FI Issuer)to enable them BNPL capabilities.We are using traditional (CIBIL) and multiple non-traditional data sources like telco, social, Zomato, Swiggy, Meta, Uber, Ola and web , just based on the mobile number which is not provided in the market.",
   "categories": [
     {
       "name": "businessTypes",
@@ -32,11 +32,11 @@
     "description": "To onboard properly into the Developer Studio as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
     "longDescription":"To onboard properly into the Developer Studi as a tenant each product must support these APIs so that we can retrieve product specific API specifications and documentation.",
     "apiSpecification": "/v1/apis/<name_of_tenant>",
-    "layout": "/v1/layouts/<name_of_tenant>",
-    "documentation": "/v1/docs/<name_of_tenant>",
-    "documenttree": "/v1/docs/<name_of_tenant>",
-    "documenttreeV2": "/v2/docs/<name_of_tenant>",
-    "sandbox": "/v1/sandboxrun/<name_of_tenant>",
+    "layout": "/v1/layouts/BuyNowPayLater",
+    "documentation": "/v1/docs/BuyNowPayLater",
+    "documenttree": "/v1/docs/BuyNowPayLater",
+    "documenttreeV2": "/v2/docs/BuyNowPayLater",
+    "sandbox": "/v1/sandboxrun/BuyNowPayLater",
     "feature":[
       {
         "name": "sandBox",
@@ -58,17 +58,17 @@
   },
   "supportConfig": [{ 
     "bug": {
-      "label": "bug,CommerceHub",
+      "label": "bug,BuyNowPayLater",
       "template": "bug.md",
       "assignees": "<github-id>"
     },  
     "feedback": {
-      "label": "feedback,CommerceHub",
+      "label": "feedback,BuyNowPayLater",
       "template": "feedback.md",
       "assignees": "<github-id>"
     },
     "enhancement": {
-      "label": "enhancement,CommerceHub",
+      "label": "enhancement,BuyNowPayLater",
       "template": "feature.md",
       "assignees": "<github-id>"
     }
